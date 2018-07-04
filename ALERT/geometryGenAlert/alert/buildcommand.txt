@@ -1,0 +1,1 @@
+cmake -DGeant4_DIR=/opt/cern/geant4.10.04-install/lib/Geant4-10.4.2 ../alert/
