@@ -387,9 +387,5 @@ G4VPhysicalVolume* ALERT::Construct()
   fRecoilHodo3->BuildLogicalVolumes();
   fRecoilHodo3->PlacePhysicalVolume(world_log, world_phys);
   
-  G4GDMLParser parser;
-  G4String gdml_name = "ALERTdetector.gdml";
-  parser.Write(gdml_name, world_phys);
-
   return world_phys;
 }

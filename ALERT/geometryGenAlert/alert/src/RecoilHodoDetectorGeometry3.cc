@@ -279,11 +279,18 @@ void RecoilHodoDetectorGeometry3::BuildLogicalVolumes()
    // ------------------------------------------------------------------------
    // First layer scintillator bar  
    // ------------------------------------------------------------------------
+   /* clear
    red       = 256.0/256.0;
    green     = 1.0/256.0;
    blue      = 1.0/256.0;
    alpha     = 0.4;
-
+   */
+   
+   red       = 220.0/256.0;
+   green     = 23.0/256.0;
+   blue      = 246.0/256.0;
+   alpha     = 0.94;
+  
    if(fScint1_log) delete fScint1_log;
    if(fScint1_solid) delete fScint1_solid;
 
@@ -309,11 +316,17 @@ void RecoilHodoDetectorGeometry3::BuildLogicalVolumes()
    // ------------------------------------------------------------------------
    // Second layer scintillator bar  
    // ------------------------------------------------------------------------
+   /*
    red       = 0.0/256.0;
    green     = 10.0/256.0;
    blue      = 200.0/256.0;
    alpha     = 0.4;
-
+   */
+   red       = 220.0/256.0;
+   green     = 23.0/256.0;
+   blue      = 246.0/256.0;
+   alpha     = 0.54;
+  
    if(fScint2_log) delete fScint2_log;
    if(fScint2_solid) delete fScint2_solid;
 
@@ -336,11 +349,17 @@ void RecoilHodoDetectorGeometry3::BuildLogicalVolumes()
    // ------------------------------------------------------------------------
    // First scintillator photon detection surface 
    // ------------------------------------------------------------------------
+   /*
    red       = 250.0/256.0;
    green     = 0.0/256.0;
    blue      = 1.0/256.0;
    alpha     = 0.4;
-
+   */
+   red       = 247.0/256.0;
+   green     = 68.0/256.0;
+   blue      = 128.0/256.0;
+   alpha     = 0.82;
+   
    if(fPhotonDet1_phys)  delete fPhotonDet1_phys;
    if(fPhotonDet1_log)   delete fPhotonDet1_log;
    if(fPhotonDet1_solid) delete fPhotonDet1_solid;
@@ -372,11 +391,17 @@ void RecoilHodoDetectorGeometry3::BuildLogicalVolumes()
    // Second scintillator photon detection surface 
    // ------------------------------------------------------------------------
    // Tiled outer scintillator
+   /*
    red       = 0.0/256.0;
    green     = 10.0/256.0;
    blue      = 200.0/256.0;
    alpha     = 0.4;
-
+   */
+   red       = 247.0/256.0;
+   green     = 98.0/256.0;
+   blue      = 68.0/256.0;
+   alpha     = 0.82;
+  
    if(fPhotonDet3_phys)  delete fPhotonDet3_phys;
    if(fPhotonDet3_log)   delete fPhotonDet3_log;
    if(fPhotonDet3_solid) delete fPhotonDet3_solid;
@@ -472,5 +497,4 @@ G4VPhysicalVolume * RecoilHodoDetectorGeometry3::PlacePhysicalVolume(
    return phys;
 }
 //______________________________________________________________________________
-
 

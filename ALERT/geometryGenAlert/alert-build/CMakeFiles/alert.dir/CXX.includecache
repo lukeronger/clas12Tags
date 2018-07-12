@@ -129,6 +129,14 @@ array
 /home/smarky/Testing/clas12Tags/ALERT/geometryGenAlert/alert/runAlert.cpp
 ALERTConstruction.hh
 /home/smarky/Testing/clas12Tags/ALERT/geometryGenAlert/alert/ALERTConstruction.hh
+G4RunManager.hh
+/home/smarky/Testing/clas12Tags/ALERT/geometryGenAlert/alert/G4RunManager.hh
+QBBC.hh
+/home/smarky/Testing/clas12Tags/ALERT/geometryGenAlert/alert/QBBC.hh
+G4TransportationManager.hh
+/home/smarky/Testing/clas12Tags/ALERT/geometryGenAlert/alert/G4TransportationManager.hh
+G4GDMLParser.hh
+/home/smarky/Testing/clas12Tags/ALERT/geometryGenAlert/alert/G4GDMLParser.hh
 
 /home/smarky/Testing/clas12Tags/ALERT/geometryGenAlert/alert/src/ALERTConstruction.cc
 ALERTConstruction.hh
@@ -1614,6 +1622,14 @@ globals.hh
 CLHEP/Vector/LorentzVector.h
 -
 
+/opt/cern/geant4.10.04-install/include/Geant4/G4MCCIndexConversionTable.hh
+vector
+-
+globals.hh
+/opt/cern/geant4.10.04-install/include/Geant4/globals.hh
+G4ios.hh
+/opt/cern/geant4.10.04-install/include/Geant4/G4ios.hh
+
 /opt/cern/geant4.10.04-install/include/Geant4/G4MTHepRandom.hh
 CLHEP/Random/RandomEngine.h
 -
@@ -1739,6 +1755,16 @@ G4MaterialTable.hh
 /opt/cern/geant4.10.04-install/include/Geant4/G4MaterialTable.hh
 G4Threading.hh
 /opt/cern/geant4.10.04-install/include/Geant4/G4Threading.hh
+
+/opt/cern/geant4.10.04-install/include/Geant4/G4MaterialCutsCouple.hh
+globals.hh
+/opt/cern/geant4.10.04-install/include/Geant4/globals.hh
+G4ios.hh
+/opt/cern/geant4.10.04-install/include/Geant4/G4ios.hh
+G4ProductionCuts.hh
+/opt/cern/geant4.10.04-install/include/Geant4/G4ProductionCuts.hh
+G4ProductionCuts.hh
+/opt/cern/geant4.10.04-install/include/Geant4/G4ProductionCuts.hh
 
 /opt/cern/geant4.10.04-install/include/Geant4/G4MaterialPropertiesIndex.hh
 vector
@@ -2140,6 +2166,26 @@ G4Physics2DVector.icc
 
 /opt/cern/geant4.10.04-install/include/Geant4/G4Physics2DVector.icc
 
+/opt/cern/geant4.10.04-install/include/Geant4/G4PhysicsListHelper.hh
+globals.hh
+/opt/cern/geant4.10.04-install/include/Geant4/globals.hh
+G4ios.hh
+/opt/cern/geant4.10.04-install/include/Geant4/G4ios.hh
+vector
+-
+G4ParticleTable.hh
+/opt/cern/geant4.10.04-install/include/Geant4/G4ParticleTable.hh
+G4ParticleDefinition.hh
+/opt/cern/geant4.10.04-install/include/Geant4/G4ParticleDefinition.hh
+G4PhysicsListOrderingParameter.hh
+/opt/cern/geant4.10.04-install/include/Geant4/G4PhysicsListOrderingParameter.hh
+
+/opt/cern/geant4.10.04-install/include/Geant4/G4PhysicsListOrderingParameter.hh
+globals.hh
+/opt/cern/geant4.10.04-install/include/Geant4/globals.hh
+G4ios.hh
+/opt/cern/geant4.10.04-install/include/Geant4/G4ios.hh
+
 /opt/cern/geant4.10.04-install/include/Geant4/G4PhysicsModelCatalog.hh
 globals.hh
 /opt/cern/geant4.10.04-install/include/Geant4/globals.hh
@@ -2339,6 +2385,32 @@ G4ProcessVector.icc
 /opt/cern/geant4.10.04-install/include/Geant4/G4ProcessVector.icc
 
 /opt/cern/geant4.10.04-install/include/Geant4/G4ProcessVector.icc
+
+/opt/cern/geant4.10.04-install/include/Geant4/G4ProductionCuts.hh
+globals.hh
+/opt/cern/geant4.10.04-install/include/Geant4/globals.hh
+G4ios.hh
+/opt/cern/geant4.10.04-install/include/Geant4/G4ios.hh
+vector
+-
+G4ParticleDefinition.hh
+/opt/cern/geant4.10.04-install/include/Geant4/G4ParticleDefinition.hh
+
+/opt/cern/geant4.10.04-install/include/Geant4/G4ProductionCutsTable.hh
+globals.hh
+/opt/cern/geant4.10.04-install/include/Geant4/globals.hh
+cmath
+-
+G4ios.hh
+/opt/cern/geant4.10.04-install/include/Geant4/G4ios.hh
+vector
+-
+G4MaterialCutsCouple.hh
+/opt/cern/geant4.10.04-install/include/Geant4/G4MaterialCutsCouple.hh
+G4MCCIndexConversionTable.hh
+/opt/cern/geant4.10.04-install/include/Geant4/G4MCCIndexConversionTable.hh
+G4Region.hh
+/opt/cern/geant4.10.04-install/include/Geant4/G4Region.hh
 
 /opt/cern/geant4.10.04-install/include/Geant4/G4ReferenceCountedHandle.hh
 G4Types.hh
@@ -3262,6 +3334,22 @@ G4FieldTrack.hh
 G4MagIntegratorStepper.hh
 /opt/cern/geant4.10.04-install/include/Geant4/G4MagIntegratorStepper.hh
 
+/opt/cern/geant4.10.04-install/include/Geant4/G4VModularPhysicsList.hh
+vector
+-
+globals.hh
+/opt/cern/geant4.10.04-install/include/Geant4/globals.hh
+rundefs.hh
+/opt/cern/geant4.10.04-install/include/Geant4/rundefs.hh
+G4ios.hh
+/opt/cern/geant4.10.04-install/include/Geant4/G4ios.hh
+G4VUserPhysicsList.hh
+/opt/cern/geant4.10.04-install/include/Geant4/G4VUserPhysicsList.hh
+G4VPhysicsConstructor.hh
+/opt/cern/geant4.10.04-install/include/Geant4/G4VPhysicsConstructor.hh
+G4VUPLSplitter.hh
+/opt/cern/geant4.10.04-install/include/Geant4/G4VUPLSplitter.hh
+
 /opt/cern/geant4.10.04-install/include/Geant4/G4VPVParameterisation.hh
 G4Types.hh
 /opt/cern/geant4.10.04-install/include/Geant4/G4Types.hh
@@ -3307,6 +3395,22 @@ G4VPhysicalVolume.icc
 /opt/cern/geant4.10.04-install/include/Geant4/G4VPhysicalVolume.icc
 
 /opt/cern/geant4.10.04-install/include/Geant4/G4VPhysicalVolume.icc
+
+/opt/cern/geant4.10.04-install/include/Geant4/G4VPhysicsConstructor.hh
+globals.hh
+/opt/cern/geant4.10.04-install/include/Geant4/globals.hh
+rundefs.hh
+/opt/cern/geant4.10.04-install/include/Geant4/rundefs.hh
+G4ios.hh
+/opt/cern/geant4.10.04-install/include/Geant4/G4ios.hh
+G4ParticleTable.hh
+/opt/cern/geant4.10.04-install/include/Geant4/G4ParticleTable.hh
+G4PhysicsListHelper.hh
+/opt/cern/geant4.10.04-install/include/Geant4/G4PhysicsListHelper.hh
+G4VUPLSplitter.hh
+/opt/cern/geant4.10.04-install/include/Geant4/G4VUPLSplitter.hh
+vector
+-
 
 /opt/cern/geant4.10.04-install/include/Geant4/G4VProcess.hh
 globals.hh
@@ -3440,6 +3544,16 @@ G4TwistBoxSide.hh
 G4TwistTrapFlatSide.hh
 /opt/cern/geant4.10.04-install/include/Geant4/G4TwistTrapFlatSide.hh
 
+/opt/cern/geant4.10.04-install/include/Geant4/G4VUPLSplitter.hh
+stdlib.h
+-
+globals.hh
+/opt/cern/geant4.10.04-install/include/Geant4/globals.hh
+rundefs.hh
+/opt/cern/geant4.10.04-install/include/Geant4/rundefs.hh
+G4AutoLock.hh
+/opt/cern/geant4.10.04-install/include/Geant4/G4AutoLock.hh
+
 /opt/cern/geant4.10.04-install/include/Geant4/G4VUserDetectorConstruction.hh
 vector
 -
@@ -3447,6 +3561,26 @@ globals.hh
 /opt/cern/geant4.10.04-install/include/Geant4/globals.hh
 
 /opt/cern/geant4.10.04-install/include/Geant4/G4VUserEventInformation.hh
+
+/opt/cern/geant4.10.04-install/include/Geant4/G4VUserPhysicsList.hh
+globals.hh
+/opt/cern/geant4.10.04-install/include/Geant4/globals.hh
+tls.hh
+/opt/cern/geant4.10.04-install/include/Geant4/tls.hh
+rundefs.hh
+/opt/cern/geant4.10.04-install/include/Geant4/rundefs.hh
+G4ios.hh
+/opt/cern/geant4.10.04-install/include/Geant4/G4ios.hh
+G4ParticleTable.hh
+/opt/cern/geant4.10.04-install/include/Geant4/G4ParticleTable.hh
+G4ParticleDefinition.hh
+/opt/cern/geant4.10.04-install/include/Geant4/G4ParticleDefinition.hh
+G4ProductionCutsTable.hh
+/opt/cern/geant4.10.04-install/include/Geant4/G4ProductionCutsTable.hh
+G4VUPLSplitter.hh
+/opt/cern/geant4.10.04-install/include/Geant4/G4VUPLSplitter.hh
+G4Threading.hh
+/opt/cern/geant4.10.04-install/include/Geant4/G4Threading.hh
 
 /opt/cern/geant4.10.04-install/include/Geant4/G4VUserTrackInformation.hh
 globals.hh
@@ -3582,6 +3716,12 @@ G4Normal3D.hh
 G4Transform3D.hh
 /opt/cern/geant4.10.04-install/include/Geant4/G4Transform3D.hh
 
+/opt/cern/geant4.10.04-install/include/Geant4/QBBC.hh
+globals.hh
+/opt/cern/geant4.10.04-install/include/Geant4/globals.hh
+G4VModularPhysicsList.hh
+/opt/cern/geant4.10.04-install/include/Geant4/G4VModularPhysicsList.hh
+
 /opt/cern/geant4.10.04-install/include/Geant4/Randomize.hh
 CLHEP/Random/Randomize.h
 -
@@ -3647,6 +3787,10 @@ G4ExceptionSeverity.hh
 /opt/cern/geant4.10.04-install/include/Geant4/G4ExceptionSeverity.hh
 
 /opt/cern/geant4.10.04-install/include/Geant4/pwdefs.hh
+G4Types.hh
+/opt/cern/geant4.10.04-install/include/Geant4/G4Types.hh
+
+/opt/cern/geant4.10.04-install/include/Geant4/rundefs.hh
 G4Types.hh
 /opt/cern/geant4.10.04-install/include/Geant4/G4Types.hh
 
